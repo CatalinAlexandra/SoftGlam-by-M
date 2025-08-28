@@ -11,13 +11,72 @@
     />
   </head>
   <body>
-    <h1>Contact</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="preturi.html">Preturi</a>
-      <a href="servicii.html">Servicii</a>
-      <a href="galerie.html">Galerie</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <header>
+      <img src="assets/favicons/SoftGlamLogo.png" alt="SoftGlam Logo" />
+      <h1>Contact</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="preturi.html">Preturi</a>
+        <a href="servicii.html">Servicii</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contactează-ne</h1>
+      <form action="#" method="post">
+        <input type="text" name="nume" placeholder="Numele tău" required />
+        <hr />
+        <input type="email" name="email" placeholder="Email" required />
+        <hr />
+        <input type="tel" name="telefon" placeholder="Telefon" />
+        <hr />
+        <select name="tip_cerere">
+          <option value="" disabled selected>Selectează tipul cererii</option>
+          <option>Programare</option>
+          <option>Informații</option>
+          <option>Reclamație</option>
+        </select>
+        <hr />
+        <textarea
+          name="mesaj"
+          placeholder="Scrie mesajul tău aici..."
+          rows="5"
+        ></textarea>
+        <hr />
+        <button type="submit">Trimite</button>
+      </form>
+
+      <section>
+        <h2>Date contact</h2>
+        <ul>
+          <li>Telefon: 0725 273 599</li>
+          <li>Adresă: Sinaia</li>
+          <li>Social media: @softglam.bym</li>
+          <li>Email: exemplu@softglam.ro</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Unde ne găsești</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.984507057434!2d25.54015277609681!3d45.35219457910009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ffb2c89a28ef%3A0x6b2c6a3d30c52d0e!2sSinaia%2C%20Romania!5e0!3m2!1sen!2sus!4v1693134400000!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+
+      <footer>
+        <h2>Informații contact</h2>
+        <p>Telefon: 0725 273 599</p>
+        <p>Adresă: Sinaia</p>
+        <p>Social media: @softglam.bym</p>
+        <p>© 2025 SoftGlam by M</p>
+      </footer>
+    </main>
   </body>
 </html>
