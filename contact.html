@@ -24,27 +24,41 @@
     </header>
     <main>
       <h1>Contactează-ne</h1>
-      <form action="#" method="post">
-        <input type="text" name="nume" placeholder="Numele tău" required />
+      <div>
+			<label for="nume"></label>
+			<input type="text" id="nume" placeholder="Numele tău" />
+		  </div>
+		  <hr />
+      <div>
+      <label for="email"></label>
+			<input type="text" id="email" placeholder="Email" />
+      </div>
         <hr />
-        <input type="email" name="email" placeholder="Email" required />
+        <div>
+       <label for="telefon"></label>
+			<input type="text" id="telefon" placeholder="Telefon" />
+      </div>
         <hr />
-        <input type="tel" name="telefon" placeholder="Telefon" />
-        <hr />
+        <div>
         <select name="tip_cerere">
           <option value="" disabled selected>Selectează tipul cererii</option>
           <option>Programare</option>
           <option>Informații</option>
           <option>Reclamație</option>
         </select>
+        </div>
         <hr />
+        <div>
         <textarea
           name="mesaj"
           placeholder="Scrie mesajul tău aici..."
           rows="5"
         ></textarea>
+        </div>
         <hr />
+        <div>
         <button type="submit">Trimite</button>
+        </div>
       </form>
 
       <section>
@@ -71,7 +85,7 @@
       </section>
 
       <footer>
-        <h2>Informații contact</h2>
+        <h2> &#128222 Informații contact</h2>
         <p>Telefon: 0725 273 599</p>
         <p>Adresă: Sinaia</p>
         <p>Social media: @softglam.bym</p>
